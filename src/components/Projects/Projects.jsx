@@ -4,6 +4,7 @@ import fabindia from "../../Assets/images/fabindia.PNG";
 import foodweb from "../../Assets/images/food-website.netlify.app.jpeg"
 import photoShotWeb from "../../Assets/images/photographic-websites.png"
 import paytmmall from "../../Assets/images/paytmmall.png"
+import immdbClone from "../../Assets/images/imdb-clone.png"
 import { FaReact, FaHardHat } from "react-icons/fa";
 import {
   SiHtml5,
@@ -37,6 +38,49 @@ const Projects = () => {
         <h2 className="section__title different" data-aos="fade-right">
           Projects   
         </h2>
+        <div className="projects_container">
+          <div className="project">
+            <div className="project_videocontainer">
+              <div data-aos="fade-right">
+                <img
+                  src={immdbClone}
+                  alt="imdb-clone"
+                />
+              </div>
+            </div>
+            <div className="project_information" data-aos="fade-right">
+              <h2>IMDB Clone</h2>
+              <p>
+              IMDb (Internet Movie Database) Web site that provides information about millions of films and television programs as well as their cast and crew.
+              </p>
+              <div>
+                <SiHtml5 />
+                <SiCss3 />
+                <FaReact />
+              </div>
+              <div>
+                <a
+                  href="https://main--super-horse-202f6e.netlify.app/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <span type="button" className="btn btn--outline onbt">
+                    See this Live
+                  </span>
+                </a>
+                <a
+                  href="https://github.com/iMChoudharyRahul/IMDB-Clone"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <span type="button" className="btn btn--outline">
+                    View Code
+                  </span>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div> 
         <div className="projects_container">
           <div className="project">
             <div className="project_videocontainer">
