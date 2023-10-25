@@ -10,9 +10,6 @@ import {
   SiHtml5,
   SiJavascript,
   SiCss3,
-  SiExpress,
-  SiMongodb,
-  SiRedux,
 } from "react-icons/si";
 // import {
 //   SiBlockchaindotcom,
