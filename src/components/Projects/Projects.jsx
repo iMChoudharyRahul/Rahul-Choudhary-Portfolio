@@ -1,11 +1,10 @@
 import React from "react";
-import "./Projects.css";
-import fabindia from "../../Assets/images/fabindia.PNG";
-import foodweb from "../../Assets/images/food-website.netlify.app.jpeg"
-import photoShotWeb from "../../Assets/images/photographic-websites.png"
-import paytmmall from "../../Assets/images/paytmmall.png"
-import immdbClone from "../../Assets/images/imdb-clone.png"
 import { FaReact, FaHardHat } from "react-icons/fa";
+import "./Projects.css";
+import foodWeb from "../../Assets/images/food-website.netlify.app.jpeg"
+import photoShotWeb from "../../Assets/images/photographic-websites.png"
+import imdbClone from "../../Assets/images/imdb-clone.png"
+import amazonClone from "../../Assets/images/amazon-clone.png"
 import {
   SiHtml5,
   SiJavascript,
@@ -40,7 +39,49 @@ const Projects = () => {
             <div className="project_videocontainer">
               <div data-aos="fade-right">
                 <img
-                  src={immdbClone}
+                  src={amazonClone}
+                  alt="amazon-clone"
+                />
+              </div>
+            </div>
+            <div className="project_information" data-aos="fade-right">
+              <h2>Amazon Clone</h2>
+              <p>
+              Amazon is an e-commerce platform that sells many product lines, including media (books, movies, music, and software), baby products, consumer electronics, beauty products, groceries, health and personal care products, industrial & scientific supplies, kitchen items, jewelry, watches, sporting goods, toys and games.</p>
+              <div>
+                <SiHtml5 />
+                <SiCss3 />
+                <FaReact />
+              </div>
+              <div>
+                <a
+                  href="https://remarkable-centaur-5d4f2c.netlify.app/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <span type="button" className="btn btn--outline onbt">
+                    See this Live
+                  </span>
+                </a>
+                <a
+                  href="https://github.com/iMChoudharyRahul/Amazon"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <span type="button" className="btn btn--outline">
+                    View Code
+                  </span>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div> 
+        <div className="projects_container">
+          <div className="project">
+            <div className="project_videocontainer">
+              <div data-aos="fade-right">
+                <img
+                  src={imdbClone}
                   alt="imdb-clone"
                 />
               </div>
@@ -83,7 +124,7 @@ const Projects = () => {
             <div className="project_videocontainer">
               <div data-aos="fade-right">
                 <img
-                  src={foodweb}
+                  src={foodWeb}
                   alt="shopping"
                 />
               </div>
@@ -168,92 +209,6 @@ const Projects = () => {
             </div>
           </div>
         </div> 
-        <div className="projects_container">
-          <div className="project">
-            <div className="project_videocontainer">
-              <div data-aos="fade-right">
-                <img
-                  src={paytmmall}
-                  alt="paytmmall"
-                />
-              </div>
-            </div>
-            <div className="project_information" data-aos="fade-right">
-              <h2>PaytmMall Clone</h2>
-              <p>
-                It was a team project.We implemented some product sorting and filtering features, We used local storage for data handling and implemented signup, login, individual product page, category-wise page, address input, cart, checkout page, etc.
-              </p>
-              <div>
-                <SiHtml5 />
-                <SiCss3 />
-                <SiJavascript />
-              </div>
-              <div>
-                <a
-                  href="https://suspicious-wing-0660d2.netlify.app/"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  <span type="button" className="btn btn--outline onbt">
-                    See this Live
-                  </span>
-                </a>
-                <a
-                  href="https://github.com/sameerah2710/PaytmMall-clone"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  <span type="button" className="btn btn--outline">
-                    View Code
-                  </span>
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div className="projects_container">
-          <div className="project">
-            <div className="project_videocontainer">
-              <div data-aos="fade-right">
-                <img
-                  src={fabindia}
-                  alt="fabindia"
-                />
-              </div>
-            </div>
-            <div className="project_information" data-aos="fade-right">
-              <h2>Fabindia Clone</h2>
-              <p>
-                FabIndia is an e-commerce platform where user can buy clothes and home garment.In it there are many category of clothes. User can add as many as products in his/her cart and buy them.
-              </p>
-              <div>
-                <SiHtml5 />
-                <SiCss3 />
-                <SiJavascript />
-              </div>
-              <div>
-                <a
-                  href="https://fabindia-masai.vercel.app/"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  <span type="button" className="btn btn--outline onbt">
-                    See this Live
-                  </span>
-                </a>
-                <a
-                  href="https://github.com/iMVenkateshMundkar/Fabindia-clone"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  <span type="button" className="btn btn--outline">
-                    View Code
-                  </span>
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>
       </div>
     </>
   );
