@@ -55,7 +55,7 @@ const Projects = () => {
               </div>
               <div>
                 <a
-                  href="https://remarkable-centaur-5d4f2c.netlify.app/"
+                  href="https://main--amazon-clone-5d4f2c.netlify.app/"
                   target="_blank"
                   rel="noreferrer"
                 >
